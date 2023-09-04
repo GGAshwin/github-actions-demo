@@ -36,3 +36,5 @@ jobs:
           echo test, and deploy your project.
           ls
           pwd
+      - name: Secrets
+        run: echo ${{secrets}}
